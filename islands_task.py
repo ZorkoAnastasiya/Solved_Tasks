@@ -1,21 +1,3 @@
-"""
-    One day, a formidable pirate Jack was lost in the middle of the Carbican Sea.
-    To get home, he had to calculate - how many islands are in the Carbiscan Sea?
-    He presented the sea as a grid, where '1's are land and '0's are (water).
-    An island is surrounded by water and is formed by connected lands horizontally or vertically.
-    You may assume all four edges of the grid are all surrounded by water.
-    Please, help Jack to count islands.
-    Example of grid:
-    [
-        ['1', '1', '1', '0', '0'],
-        ['1', '1', '1', '0', '0'],
-        ['1', '1', '1', '0', '0'],
-        ['1', '1', '0', '0', '1'],
-        ['1', '0', '0', '0', '1'],
-    ]
-    Answer: 2.
-"""
-
 islands = [
         ['1', '1', '1', '0', '0'],
         ['1', '1', '1', '0', '0'],
