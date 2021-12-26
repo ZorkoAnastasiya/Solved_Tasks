@@ -34,7 +34,7 @@ def brackets(string: str = '') -> bool:
                 checklist.pop()
             else:
                 return False
-    return True if len(checklist) == 0 else False
+    return len(checklist) == 0
 
 
 print(brackets(str1))
