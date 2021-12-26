@@ -30,7 +30,7 @@ def brackets(string: str = '') -> bool:
             checklist.append(i)
         elif i in close_brackets:
             index_bracket = close_brackets.index(i)
-            if len(checklist) > 0 and open_brackets[index_bracket] == checklist[len(checklist) - 1]:
+            if len(checklist) > 0 and checklist[len(checklist) - 1] == open_brackets[index_bracket]:
                 checklist.pop()
             else:
                 return False
